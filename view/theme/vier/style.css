@@ -274,10 +274,7 @@ h4 {
 }
 
 a {
-	color: #36C;
-	/* color: #3e3e8c; */
-	/* color: #3465A4; */
-	/*color: #3E3E8C; */
+	color: #dc0067;
 	text-decoration: none;
 }
 a:hover {
@@ -383,7 +380,7 @@ code {
 #sidebar-ungrouped:hover, .side-link:hover, .nets-ul li:hover, #forum-list div:hover,
 .nets-all:hover, .saved-search-li:hover, li.tool:hover, .admin.link:hover, aside h4 a:hover, #message-new:hover {
   /* background-color: #ddd; */
-  background-color: #e5e5e5;
+  background-color: #c2c2c2;
 }
 
 #message-new a {
@@ -505,7 +502,8 @@ nav {
   padding: 0px;
   padding-left: 0px;
   /* background: #2d2d2d; */
-  background: rgb(36, 76, 94);
+  /* background: rgb(36, 76, 94); */
+  background: #dc0067;
   /*background: #364A84;
     background: -moz-linear-gradient(top, #516499 0%, #364a84 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#516499), color-stop(100%,#364a84));
@@ -520,7 +518,7 @@ nav {
 }
 
 nav .icon {
-  color: #ccc;
+  color: #fff;
 }
 
 nav a:active,
@@ -529,7 +527,7 @@ nav a:link,
 nav a {
   text-decoration: none;
   outline: none;
-  color: #ccc;
+  color: #fff;
   padding-bottom: 8px;
   padding-top: 8px;
 }
@@ -743,7 +741,7 @@ ul.menu-popup a {
 }
 ul.menu-popup a:hover {
   /* background-color: #bdcdd4; */
-  background-color: #e5e5e5;
+  background-color: #c2c2c2;
 }
 ul.menu-popup .menu-sep {
   border-top: 1px solid #9eabb0;
@@ -1935,7 +1933,7 @@ ul.tabs a:hover {
 }
 
 ul.tabs a:hover, #event-notice:hover, #birthday-notice:hover, ul.tabs li .active, .comment-edit-submit-wrapper .fakelink:hover {
-    background-color: #e5e5e5;
+    background-color: #c2c2c2;
     text-decoration: none;
     border: 1px solid darkgray;
 }
