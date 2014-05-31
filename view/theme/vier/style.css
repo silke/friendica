@@ -306,7 +306,7 @@ a:hover {
   clear: both;
 }
 .fakelink {
-  color: #36c;
+  color: #dc0067;
   /* color: #3e3e8c; */
   /* color: #3465A4; */
   /* color: #3E3E8C; */
@@ -902,8 +902,7 @@ aside #dfrn-request-link {
 }
 aside #dfrn-request-link:hover {
   text-decoration: none;
-  background-color: #36c;
-  /* background-color: #19aeff; */
+  background-color: #dc0067;
 }
 aside #profiles-menu {
   width: 14em;
@@ -1229,7 +1228,7 @@ h2 {
 }
 
 .wall-item-container .wall-item-name:hover {
-  color: #36c;
+  color: #dc0067;
 }
 
 .wall-item-container .wall-item-name {
@@ -1244,7 +1243,7 @@ h2 {
 
 .toplevel_item:hover .wall-item-name,
 .wall-item-container:hover .wall-item-name {
-  color: #36c;
+  color: #dc0067;
   font-weight: bold;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1270,7 +1269,7 @@ h2 {
 .wall-item-container:hover .fakelink,
 .toplevel_item:hover .wall-item-content a,
 .wall-item-container:hover .wall-item-content a {
-  color: #36c;
+  color: #dc0067;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
