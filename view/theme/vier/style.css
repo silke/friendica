@@ -617,7 +617,7 @@ nav .nav-menu {
 }*/
 
 nav .nav-menu.selected {
-  border-bottom: 3px solid #9eabb0;
+  border-bottom: 3px solid #ffb400 ;
  /*  background-color: #364E59; */
 }
 
