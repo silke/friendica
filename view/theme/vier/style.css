@@ -15,10 +15,6 @@ img {
 /* = Admin = */
 /* ========= */
 
-#adminpage {
-/*        width: 80%;*/
-}
-
 #adminpage .screenshot img {
   width: 640px;
 }
@@ -197,36 +193,22 @@ img {
   margin-bottom: 5px;
 }
 
-div.pager a {
-  margin-left: 5px;
-  margin-right: 5px;
-}
- 
-span.pager_first a, span.pager_n a, 
-span.pager_last a, span.pager_prev a, span.pager_next a,
-span.scroll_loader_text {
-  color: darkgray;
-}
-
 div.pager {
-  clear: left;
   text-align: center;
-/*
   height: 1.2em;
   padding-bottom: 12px;
   color: black;
   background-color: #f2f2f2;
+  clear: left;
   margin-top: 5px;
   padding: 1%;
   height: 1em;
   margin-bottom: 5px;
-*/
 }
 
-.birthday-notice, .event-notice {
+.birthday-notice {
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #F5F5F5;
 }
 
 #live-network {
@@ -288,11 +270,8 @@ h4 {
 }
 
 a {
-	color: #36C;
-	/* color: #3e3e8c; */
-	/* color: #3465A4; */
-	/*color: #3E3E8C; */
-	text-decoration: none;
+  color: #dc0067;	
+  text-decoration: none;	
 }
 a:hover {
 	/* color: blue; */
@@ -323,7 +302,7 @@ a:hover {
   clear: both;
 }
 .fakelink {
-  color: #36c;
+  color: #dc0067;
   /* color: #3e3e8c; */
   /* color: #3465A4; */
   /* color: #3E3E8C; */
@@ -396,9 +375,7 @@ code {
 .sidebar-group-li:hover, #sidebar-new-group:hover, #hide-forum-list:hover, 
 #sidebar-ungrouped:hover, .side-link:hover, .nets-ul li:hover, #forum-list div:hover,
 .nets-all:hover, .saved-search-li:hover, li.tool:hover, .admin.link:hover, aside h4 a:hover, #message-new:hover {
-  /* background-color: #ddd; */
-/*  background-color: #e5e5e5; */
-  background-color: #F5F5F5;
+  background-color: #c2c2c2;
 }
 
 #message-new a {
@@ -520,9 +497,9 @@ nav {
   padding: 0px;
   padding-left: 0px;
   /* background: #2d2d2d; */
-  background: rgb(36, 76, 94);
-  /*background: #364A84;
-    background: -moz-linear-gradient(top, #516499 0%, #364a84 100%);
+  /* background: rgb(36, 76, 94); */
+  background: #dc0067;
+  /*  background: -moz-linear-gradient(top, #516499 0%, #364a84 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#516499), color-stop(100%,#364a84));
     background: -webkit-linear-gradient(top, #516499 0%,#364a84 100%);
     background: -o-linear-gradient(top, #516499 0%,#364a84 100%);
@@ -535,8 +512,7 @@ nav {
 }
 
 nav .icon {
-  color: #ccc;
-  padding:0;
+  color: #fff;
 }
 
 nav a:active,
@@ -545,7 +521,7 @@ nav a:link,
 nav a {
   text-decoration: none;
   outline: none;
-  color: #ccc;
+  color: #fff;
   padding-bottom: 8px;
   padding-top: 8px;
 }
@@ -635,7 +611,7 @@ nav .nav-menu {
 }*/
 
 nav .nav-menu.selected {
-  border-bottom: 3px solid #9eabb0;
+  border-bottom: 3px solid #ffb400;
  /*  background-color: #364E59; */
 }
 
@@ -649,9 +625,7 @@ nav .nav-menu:hover {
 nav .nav-notify {
   display: none;
   position: absolute;
- /*  background-color: #36c; */
-   background-color: #F80;
-  /* background-color: #19aeff; */
+  background-color: #ffb400;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
@@ -671,7 +645,6 @@ nav .nav-notify.show {
 nav #nav-help-link,
 nav #nav-search-link,
 nav #nav-directory-link,
-nav #nav-apps-link,
 nav #nav-apps-link,
 nav #nav-login-link,
 nav #nav-notifications-linkmenu,
@@ -771,7 +744,7 @@ ul.menu-popup a {
 }
 ul.menu-popup a:hover {
   /* background-color: #bdcdd4; */
-  background-color: #e5e5e5;
+  background-color: #c2c2c2;
 }
 ul.menu-popup .menu-sep {
   border-top: 1px solid #9eabb0;
@@ -937,8 +910,7 @@ aside #dfrn-request-link {
 }
 aside #dfrn-request-link:hover {
   text-decoration: none;
-  background-color: #36c;
-  /* background-color: #19aeff; */
+  background-color: #dc0067;
 }
 aside #profiles-menu {
   width: 14em;
@@ -1264,7 +1236,7 @@ h2 {
 }
 
 .wall-item-container .wall-item-name:hover {
-  color: #36c;
+  color: #dc0067;
 }
 
 .wall-item-container .wall-item-name {
@@ -1279,7 +1251,7 @@ h2 {
 
 .toplevel_item:hover .wall-item-name,
 .wall-item-container:hover .wall-item-name {
-  color: #36c;
+  color: #dc0067;
   font-weight: bold;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1305,7 +1277,7 @@ h2 {
 .wall-item-container:hover .fakelink,
 .toplevel_item:hover .wall-item-content a,
 .wall-item-container:hover .wall-item-content a {
-  color: #36c;
+  color: #dc0067;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2067,7 +2039,7 @@ ul.tabs li .active, span.pager_current a {
   padding-right: 36px;
   background-position: right center;
   background-color: #D7E3F1;
-  color: #36c;
+  color: #dc0067;
 }
 .field .hidden {
   display: none!important;
